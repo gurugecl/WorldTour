@@ -3,20 +3,20 @@ import {View, Text, Pano, AppRegistry, asset, StyleSheet} from 'react-vr';
 
 const places = [
     {
-        title: 'Louvre',
-        image: 'louvre-vr.jpg'
+        title: 'Winter Outdoor',
+        image: 'winter-outdoor.jpg'
     },
     {
         title: 'Starry Sky',
         image: 'starry-sky.jpg'
     },
     {
-        title: 'Winter Outdoor',
-        image: 'winter-outdoor.jpg'
+        title: 'Louvre',
+        image: 'louvre-vr.jpg'
     },
     {
-        title: 'San Francisco',
-        image: 'san-francisco-vr.jpg'
+        title: 'VR World',
+        image: 'chess-world.jpg'
     }
 ]
 
@@ -83,7 +83,7 @@ const styles  = StyleSheet.create({
         ]
     },
     menuButton: {
-        backgroundColor: '#fff',
+        backgroundColor: '#000',
         borderRadius: 0.25,
         width: 0.5,
         height: 0.5,
@@ -97,7 +97,7 @@ const styles  = StyleSheet.create({
     menuButtonText: {
         textAlign: 'center',
         fontSize: 0.15,
-        color: '#000'
+        color: '#fff'
     },
     menuItem: {
         alignItems: 'center',
@@ -106,12 +106,12 @@ const styles  = StyleSheet.create({
         height: 1,
         borderRadius: 0.5,
         borderWidth: 0.02,
-        backgroundColor: '#fff'
+        backgroundColor: '#000'
     },
     menuItemText: {
         fontSize: 0.2,
         textAlign: 'center',
-        color: '#000'
+        color: '#fff'
     }
 })
 
